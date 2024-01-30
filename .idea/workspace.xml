@@ -4,13 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="267884c9-6c62-41b1-9866-45b9b4f91a7a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="267884c9-6c62-41b1-9866-45b9b4f91a7a" name="Changes" comment="First">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/advanced/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/advanced/model/LPAStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/advanced/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/advanced/util/QueryItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/advanced/util/QueryList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/challenge/Layer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/challenge/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/challenge/Mappable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/challenge/Park.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/challenge/River.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/challenge_2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/challenge_2/model/LPAStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/challenge_2/model/LPAStudentComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/challenge_2/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/challenge_2/util/QueryItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/challenge_2/util/QueryList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/comparing/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/demo/BaseballTeam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/demo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/demo/SportsTeam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/demo/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/NestedClasses/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/NestedClasses/burger/Meal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/NestedClasses/burger/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/NestedClasses/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/NestedClasses/domain/EmployeeComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/NestedClasses/domain/StoreEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -28,6 +60,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/home/popos/IdeaProjects/Java-Playground/src/main/java/org/example/Main.java"
   }
@@ -48,7 +82,31 @@
       <option name="presentableId" value="Default" />
       <updated>1706642135106</updated>
     </task>
+    <task id="LOCAL-00001" summary="First">
+      <option name="closed" value="true" />
+      <created>1706642239376</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706642239376</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First" />
+    <option name="LAST_COMMIT_MESSAGE" value="First" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
