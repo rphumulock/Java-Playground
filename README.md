@@ -15,7 +15,7 @@ Each section contains multiple main entries with utilities that are all local fo
 
 ### Generics
 
-### Nested Classes
+#### Nested Classes
 1. Static Inner Classes
 2. Non-Static Inner Classes
 3. Local Classes
