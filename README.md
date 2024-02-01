@@ -4,6 +4,6 @@ Exploration in modern Java. This is a collection from [Tim Buchalkas](https://ww
 
 ## Contents
 
-### Generic
+### Generics
 
 ### Nested Classes
