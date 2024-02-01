@@ -6,12 +6,12 @@ Exploration in modern Java. This is a collection from Tim Buchalka's 🔗 [Compl
 
 Each section contains multiple main entries with utilities that are all local for that section.
 
-### ☑️ Variables, Datatypes and Operators
-### ☑️ Expressions, Statements, Code Blocks, Methods and more
-### ☑️ Control Flow Statements
-### ☑️ OOP Part 1 - Classes, Constructors and Inheritance
-### ☑️ OOP Part 2 - Composition, Encapsulation, and Polymorphism
-### ☑️ Arrays, Java inbuilt Lists, Autoboxing und Unboxing
+#### ☑️ Variables, Datatypes and Operators
+#### ☑️ Expressions, Statements, Code Blocks, Methods and more
+#### ☑️ Control Flow Statements
+#### ☑️ OOP Part 1 - Classes, Constructors and Inheritance
+#### ☑️ OOP Part 2 - Composition, Encapsulation, and Polymorphism
+#### ☑️ Arrays, Java inbuilt Lists, Autoboxing und Unboxing
 
 ### Generics
 
