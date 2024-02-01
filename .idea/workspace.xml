@@ -5,36 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="267884c9-6c62-41b1-9866-45b9b4f91a7a" name="Changes" comment="First">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/advanced/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/advanced/model/LPAStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/advanced/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/advanced/util/QueryItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/advanced/util/QueryList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/challenge/Layer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/challenge/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/challenge/Mappable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/challenge/Park.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/challenge/River.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/challenge_2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/challenge_2/model/LPAStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/challenge_2/model/LPAStudentComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/challenge_2/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/challenge_2/util/QueryItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/challenge_2/util/QueryList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/comparing/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/demo/BaseballTeam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/demo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/demo/SportsTeam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/Generics/demo/Team.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/NestedClasses/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/NestedClasses/burger/Meal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/NestedClasses/burger/Store.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/NestedClasses/domain/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/NestedClasses/domain/EmployeeComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/NestedClasses/domain/StoreEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/examples/NestedClasses/anonymous_classes/RunMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/examples/NestedClasses/demo_inner_classes/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/Generics/advanced/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/Generics/demo_generics_advanced/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/Generics/advanced/model/LPAStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/Generics/demo_generics_advanced/model/LPAStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/Generics/advanced/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/Generics/demo_generics_advanced/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/Generics/advanced/util/QueryItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/Generics/demo_generics_advanced/util/QueryItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/Generics/advanced/util/QueryList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/Generics/demo_generics_advanced/util/QueryList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/Generics/challenge/Layer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/Generics/challenge_1/Layer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/Generics/challenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/Generics/challenge_1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/Generics/challenge/Mappable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/Generics/challenge_1/Mappable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/Generics/challenge/Park.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/Generics/challenge_1/Park.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/Generics/challenge/River.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/Generics/challenge_1/River.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/Generics/challenge_2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/Generics/challenge_2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/Generics/challenge_2/model/LPAStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/Generics/challenge_2/model/LPAStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/Generics/challenge_2/model/LPAStudentComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/Generics/challenge_2/model/LPAStudentComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/Generics/challenge_2/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/Generics/challenge_2/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/Generics/challenge_2/util/QueryItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/Generics/challenge_2/util/QueryItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/Generics/challenge_2/util/QueryList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/Generics/challenge_2/util/QueryList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/Generics/comparing/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/Generics/demo_comparing/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/Generics/demo/BaseballTeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/Generics/demo_generics_basic/BaseballTeam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/Generics/demo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/Generics/demo_generics_basic/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/Generics/demo/SportsTeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/Generics/demo_generics_basic/SportsTeam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/Generics/demo/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/Generics/demo_generics_basic/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/NestedClasses/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/NestedClasses/burger/Meal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/NestedClasses/challenge_1/Meal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/NestedClasses/burger/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/NestedClasses/challenge_1/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/NestedClasses/domain/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/NestedClasses/utils/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/NestedClasses/domain/EmployeeComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/NestedClasses/utils/EmployeeComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/NestedClasses/domain/StoreEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/NestedClasses/utils/StoreEmployee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +47,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2bggSK8Z7S2WmChv7s12fjOOPtY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -58,18 +58,28 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.RunMethods.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/home/popos/IdeaProjects/Java-Playground/src/main/java/org/example/Main.java"
+    "last_opened_file_path": "/Users/mirandaloza/Java-Playground/Java-Playground/src/main/java/examples/NestedClasses/anonymous_classes",
+    "onboarding.tips.debug.path": "/home/popos/IdeaProjects/Java-Playground/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/examples/NestedClasses/anonymous_classes" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-78a6f59c" />
+        <option value="jdk-17.0.10-corretto-17.0.10-3183f394aec4-96c0d24d" />
       </set>
     </attachedChunks>
   </component>
