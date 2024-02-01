@@ -1,50 +1,16 @@
 package modules.Collections.demos.demo3;
 
-import modules.Collections.demos.Card;
+import modules.Collections.utils.Card;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
+
+/**
+ * This demo shows more functionality of the Collections Class and Framework
+ */
 
 public class Main {
 
-    /**
-     * The provided code snippet demonstrates various ways to manipulate collections of `Card` objects in Java, highlighting different methods for initializing, filling, and copying collections. It uses a custom `Card` class and assumes the presence of methods like `getStandardDeck()`, `getFaceCard()`, and `printDeck()` within that class. Here's a breakdown of the code and its key operations:
-     *
-     * 1. **Initialize and Print a Standard Deck**:
-     *    - A list of `Card` objects representing a standard deck is obtained and printed. This is straightforward and depends on the `Card.getStandardDeck()` and `Card.printDeck()` methods being properly implemented in the `Card` class.
-     *
-     * 2. **Initialize Array with `Arrays.fill()`**:
-     *    - An array of `Card` objects is created with a fixed size of 13, initially filled with `null` values. This array is then filled with the same `Card` object (`aceOfHearts`), effectively creating an array where every element is a reference to the same `Card` object. A potential caveat here is that modifying one element of the array would affect all others since they refer to the same object.
-     *
-     * 3. **Attempt to Use `Collections.fill()` on an Empty List**:
-     *    - A new `ArrayList` with an initial capacity of 52 is created, but it's important to note that initial capacity does not equate to size; the list is still empty. The `Collections.fill()` method call will fail to add elements to the list because it only replaces existing elements. The code here will not work as intended because the list needs to have pre-existing elements for `Collections.fill()` to replace. Consequently, the list remains empty, and its size is 0, which is a significant misunderstanding of how `Collections.fill()` works.
-     *
-     * 4. **Correct Use of `Collections.nCopies()`**:
-     *    - The `Collections.nCopies()` method is used correctly to create immutable lists of a specified number of copies of a single object. This method is shown creating lists of `aceOfHearts` and `kingOfClubs`. These lists are immutable, meaning their structure (size, elements) cannot be changed after creation. This limitation should be considered when using `nCopies()` for creating lists.
-     *
-     * 5. **Adding Elements to a List with `Collections.addAll()`**:
-     *    - The `Collections.addAll()` method is used to add all elements of the `cardArray` to the `cards` list twice. This demonstrates a way to add elements to a collection effectively. However, since `cardArray` contains references to the same object, this operation further emphasizes the issue of having multiple references to a single object in a collection.
-     *
-     * 6. **Copying Collections with `Collections.copy()`**:
-     *    - The `Collections.copy()` method is used to copy the contents of `kingsOfClubs` into `cards`. This operation requires that the destination list (`cards`) has enough capacity (size) to hold all the elements of the source list. This method replaces the content of `cards` with that of `kingsOfClubs`. A potential issue here is that if `cards` is not large enough, an `IndexOutOfBoundsException` will be thrown.
-     *
-     * 7. **Immutable List Copy with `List.copyOf()`**:
-     *    - Finally, `List.copyOf()` creates an immutable copy of `kingsOfClubs`. This immutable list cannot be modified after creation, which is a crucial consideration for design decisions regarding the mutability of collections.
-     *
-     * **Caveats and Considerations**:
-     * - **Mutability vs. Immutability**: The use of `Collections.nCopies()` and `List.copyOf()` creates immutable collections, which cannot be modified. This is crucial for understanding the limitations in modifying these collections later in the program.
-     * - **Shared References**: Filling arrays or collections with the same object instance means all elements point to the same memory location. Any modification to the object will reflect across all references.
-     * - **Initialization and Capacity**: The misuse of `Collections.fill()` on an empty list highlights the importance of understanding the difference between a collection's capacity and its actual size.
-     * - **Error Handling**: The code does not explicitly handle potential exceptions (e.g., `IndexOutOfBoundsException` from `Collections.copy()`), which is essential for robustness, especially when working with collections whose sizes might not match.
-     * @param args
-     */
-
     public static void main(String[] args) {
-
-        List<Card> deck = Card.getStandardDeck();
-        Card.printDeck(deck);
 
         Card[] cardArray = new Card[13];
         Card aceOfHearts = Card.getFaceCard(Card.Suit.HEART, 'A');
@@ -72,6 +38,90 @@ public class Main {
 
         cards = List.copyOf(kingsOfClubs);
         Card.printDeck(cards, "List Copy of Kings", 1);
+
+        List<Card> deck = Card.getStandardDeck();
+        Card.printDeck(deck);
+
+        Collections.shuffle(deck);
+        Card.printDeck(deck, "Shuffled Deck" , 4);
+
+        Collections.reverse(deck);
+        Card.printDeck(deck, "Reversed Deck of Cards:", 4);
+
+        var sortingAlgorithm = Comparator.comparing(Card::rank)
+                .thenComparing(Card::suit);
+        Collections.sort(deck, sortingAlgorithm);
+        Card.printDeck(deck, "Standard Deck sorted by rank, suit", 13);
+
+        Collections.reverse(deck);
+        Card.printDeck(deck, "Sorted by rank, suit reversed:", 13);
+
+        List<Card> kings = new ArrayList<>(deck.subList(4, 8));
+        Card.printDeck(kings, "Kings in deck", 1);
+
+        List<Card> tens = new ArrayList<>(deck.subList(16, 20));
+        Card.printDeck(tens, "Tens in deck", 1);
+
+        int subListIndex = Collections.indexOfSubList(deck, tens);
+        System.out.println("sublist index for tens = " + subListIndex);
+        System.out.println("Contains = " + deck.containsAll(tens));
+
+        boolean disjoint = Collections.disjoint(deck, tens);
+        System.out.println("disjoint = " + disjoint);
+
+        boolean disjoint2 = Collections.disjoint(kings, tens);
+        System.out.println("disjoint = " + disjoint2);
+
+        deck.sort(sortingAlgorithm);
+        Card tenOfHearts = Card.getNumericCard(Card.Suit.HEART, 10);
+        int foundIndex = Collections.binarySearch(deck, tenOfHearts, sortingAlgorithm);
+        System.out.println("foundIndex = " + foundIndex);
+        System.out.println("foundIndex = " + deck.indexOf(tenOfHearts));
+        System.out.println(deck.get(foundIndex));
+
+        Card tenOfClubs = Card.getNumericCard(Card.Suit.CLUB, 10);
+        Collections.replaceAll(deck, tenOfClubs, tenOfHearts);
+        Card.printDeck(deck.subList(32, 36), "Tens row", 1);
+
+        Collections.replaceAll(deck, tenOfHearts, tenOfClubs);
+        Card.printDeck(deck.subList(32, 36), "Tens row", 1);
+
+        if (Collections.replaceAll(deck, tenOfHearts, tenOfClubs)) {
+            System.out.println("Tens of hearts replaced with tens of clubs");
+        } else {
+            System.out.println("No tens of hearts found in the list");
+        }
+
+        System.out.println("Ten of Clubs Cards = " +
+                Collections.frequency(deck, tenOfClubs));
+
+        System.out.println("Best Card = " + Collections.max(deck, sortingAlgorithm));
+        System.out.println("Worst Card = " + Collections.min(deck, sortingAlgorithm));
+
+        var sortBySuit = Comparator.comparing(Card::suit)
+                .thenComparing(Card::rank);
+        deck.sort(sortBySuit);
+        Card.printDeck(deck, "Sorted by Suit, Rank", 4);
+
+        List<Card> copied = new ArrayList<>(deck.subList(0, 13));
+        Collections.rotate(copied, 2);
+        System.out.println("UnRotated: " + deck.subList(0, 13));
+        System.out.println("Rotated " + 2 + ": " + copied);
+
+        copied = new ArrayList<>(deck.subList(0, 13));
+        Collections.rotate(copied, -2);
+        System.out.println("UnRotated: " + deck.subList(0, 13));
+        System.out.println("Rotated " + -2 + ": " + copied);
+
+        copied = new ArrayList<>(deck.subList(0, 13));
+        for (int i = 0; i < copied.size() / 2; i++) {
+            Collections.swap(copied, i, copied.size() - 1 - i);
+        }
+        System.out.println("Manual reverse :" + copied);
+
+        copied = new ArrayList<>(deck.subList(0, 13));
+        Collections.reverse(copied);
+        System.out.println("Using reverse :" + copied);
 
     }
 }

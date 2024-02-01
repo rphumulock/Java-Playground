@@ -5,43 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="267884c9-6c62-41b1-9866-45b9b4f91a7a" name="Changes" comment="NestedClasses">
-      <change afterPath="$PROJECT_DIR$/src/main/java/modules/Collections/demos/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modules/Collections/demos/demo1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modules/Collections/demos/demo2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modules/Collections/demos/demo3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modules/Lambdas/demos/demo1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modules/Lambdas/demos/demo2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modules/Collections/challenges/challenge1/GameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modules/Collections/challenges/challenge1/poker/PokerGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modules/Collections/challenges/challenge1/poker/PokerHand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modules/Collections/challenges/challenge1/poker/Ranking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/Generics/challenge_1/Layer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/Generics/challenges/challenge1/Layer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/Generics/challenge_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/Generics/challenges/challenge1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/Generics/challenge_1/Mappable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/Generics/challenges/challenge1/Mappable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/Generics/challenge_1/Park.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/Generics/challenges/challenge1/Park.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/Generics/challenge_1/River.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/Generics/challenges/challenge1/River.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/Generics/challenge_2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/Generics/challenges/challenge2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/Generics/challenge_2/model/LPAStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/Generics/challenges/challenge2/model/LPAStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/Generics/challenge_2/model/LPAStudentComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/Generics/challenges/challenge2/model/LPAStudentComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/Generics/challenge_2/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/Generics/challenges/challenge2/model/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/Generics/challenge_2/util/QueryItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/Generics/challenges/challenge2/util/QueryItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/Generics/challenge_2/util/QueryList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/Generics/challenges/challenge2/util/QueryList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/Generics/demo_comparing/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/Generics/demos/demo_comparing/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/Generics/demo_generics_advanced/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/Generics/demos/demo_generics_advanced/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/Generics/demo_generics_advanced/model/LPAStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/Generics/demos/demo_generics_advanced/model/LPAStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/Generics/demo_generics_advanced/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/Generics/demos/demo_generics_advanced/model/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/Generics/demo_generics_advanced/util/QueryItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/Generics/demos/demo_generics_advanced/util/QueryItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/Generics/demo_generics_advanced/util/QueryList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/Generics/demos/demo_generics_advanced/util/QueryList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/Generics/demo_generics_basic/BaseballTeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/Generics/demos/demo_generics_basic/BaseballTeam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/Generics/demo_generics_basic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/Generics/demos/demo_generics_basic/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/Generics/demo_generics_basic/SportsTeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/Generics/demos/demo_generics_basic/SportsTeam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/Generics/demo_generics_basic/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/Generics/demos/demo_generics_basic/Team.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/NestedClasses/anonymous_classes/RunMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/NestedClasses/demos/demo2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/NestedClasses/challenge_1/Meal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/NestedClasses/challenges/challenge1/Meal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/NestedClasses/challenge_1/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/NestedClasses/challenges/challenge1/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/NestedClasses/challenge_2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/NestedClasses/challenges/challenge2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/NestedClasses/challenge_2/domain/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/NestedClasses/challenges/challenge2/domain/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/NestedClasses/demo_inner_classes/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/NestedClasses/demos/demo1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/NestedClasses/utils/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/NestedClasses/utils/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/NestedClasses/utils/EmployeeComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/NestedClasses/utils/EmployeeComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/NestedClasses/utils/StoreEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/NestedClasses/utils/StoreEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modules/Collections/demos/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/Collections/utils/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modules/Collections/demos/demo2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/Collections/demos/demo2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modules/Collections/demos/demo3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/Collections/demos/demo3/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +21,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "rphumulock"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="143880e3-1508-46a7-9348-fd22b34a008e" />
+        <option name="url" value="https://github.com/rphumulock/Java-Playground.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -72,7 +57,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/mirandaloza/IdeaProjects/Java-Playground/src/main/java/modules/Lambdas/demos/demo2",
+    "last_opened_file_path": "/Users/mirandaloza/IdeaProjects/Java-Playground/src/main/java/modules/Collections/utils",
     "onboarding.tips.debug.path": "/home/popos/IdeaProjects/Java-Playground/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
@@ -81,11 +66,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/modules/Collections/utils" />
+      <recent name="$PROJECT_DIR$/src/main/java/modules/Collections/challenges/challenge1" />
+      <recent name="$PROJECT_DIR$/src/main/java/modules/Collections/demos/demo3" />
       <recent name="$PROJECT_DIR$/src/main/java/modules/Lambdas/demos/demo2" />
       <recent name="$PROJECT_DIR$/src/main/java/modules/Lambdas/demos" />
-      <recent name="$PROJECT_DIR$/src/main/java/modules/Collections/demos/demo2" />
-      <recent name="$PROJECT_DIR$/src/main/java/modules/Collections/demos/demo1" />
-      <recent name="$PROJECT_DIR$/src/main/java/examples/NestedClasses/challenge_2" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -121,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706759573063</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="NestedClasses">
+      <option name="closed" value="true" />
+      <created>1706826764044</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706826764044</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
