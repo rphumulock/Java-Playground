@@ -25,7 +25,7 @@ Each section contains localized entrypoints and utilities.
 ###### Static Inner Classes, Non-Static Inner Classes, Local Classes, Anonymous Classes
 
 #### Lambda Functions
-###### Functional Interfaces
+###### Functional Interfaces, Various Lambda Interfaces
 
 #### Collections
 ###### Collections Class and Framework
