@@ -2,7 +2,9 @@
 
 🔧 Language: Java 9
 
-Exploration in modern Java. This is a collection from Tim Buchalka's 🔗 [Complete Java Masterclass](https://www.udemy.com/course/java-the-complete-java-developer-course/) Udemy Class and branches off of it.
+Exploration in modern Java. 
+
+This is a collection from Tim Buchalka's 🔗 [Complete Java Masterclass](https://www.udemy.com/course/java-the-complete-java-developer-course/) Udemy Class will build off of it.
 
 ## Content
 Each section contains localized entrypoints and utilities.
