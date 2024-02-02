@@ -16,9 +16,9 @@ Each section contains multiple main entries with utilities that are all local fo
 #### Arrays (Incomplete)
 #### Lists Iterators Autoboxing (Incomplete)
 #### Abstraction (Incomplete)
+
 #### Generics
+Basic Generic Usage, Advanced Generic Usage
+
 #### Nested Classes
-1. Static Inner Classes
-2. Non-Static Inner Classes
-3. Local Classes
-4. Anonymous Classes
+Static Inner Classes, Non-Static Inner Classes, Local Classes, Anonymous Classes
