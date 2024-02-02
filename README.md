@@ -4,9 +4,8 @@
 
 Exploration in modern Java. This is a collection from Tim Buchalka's 🔗 [Complete Java Masterclass](https://www.udemy.com/course/java-the-complete-java-developer-course/) Udemy Class and branches off of it.
 
-## Contents
-
-Each section contains multiple main entries with utilities that are all local for that section.
+## Content
+Each section contains localized entrypoints and utilities.
 
 #### Variables, Datatypes and Operators (Incomplete)
 #### Expressions, Statements, Methods (Incomplete)
