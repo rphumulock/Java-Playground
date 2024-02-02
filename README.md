@@ -19,7 +19,7 @@ Each section contains localized entrypoints and utilities.
 #### Abstraction (Incomplete)
 
 #### Generics
-Basic Generic Usage, Advanced Generic Usage
+###### Basic Generic Usage, Advanced Generic Usage
 
 #### Nested Classes
 ###### Static Inner Classes, Non-Static Inner Classes, Local Classes, Anonymous Classes
