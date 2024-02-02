@@ -28,3 +28,4 @@ Each section contains localized entrypoints and utilities.
 ###### Functional Interfaces
 
 #### Collections
+###### Collections Class and Framework
