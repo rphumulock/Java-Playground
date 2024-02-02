@@ -22,4 +22,11 @@ Each section contains localized entrypoints and utilities.
 Basic Generic Usage, Advanced Generic Usage
 
 #### Nested Classes
-Static Inner Classes, Non-Static Inner Classes, Local Classes, Anonymous Classes
+###### Static Inner Classes, Non-Static Inner Classes, Local Classes, Anonymous Classes
+
+#### Lambda Functions
+###### Functional Interfaces
+
+#### Collections
+
+
