@@ -13,9 +13,9 @@ Each section contains multiple main entries with utilities that are all local fo
 #### Control Flow Statements (Incomplete)
 #### OOP Part 1 - Classes, Constructors and Inheritance (Incomplete)
 #### OOP Part 2 - Composition, Encapsulation, and Polymorphism (Incomplete)
-#### Arrays
-#### Lists Iterators Autoboxing
-#### Abstraction
+#### Arrays (Incomplete)
+#### Lists Iterators Autoboxing (Incomplete)
+#### Abstraction (Incomplete)
 #### Generics
 #### Nested Classes
 1. Static Inner Classes
