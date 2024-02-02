@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="267884c9-6c62-41b1-9866-45b9b4f91a7a" name="Changes" comment="NestedClasses">
-      <change afterPath="$PROJECT_DIR$/src/main/java/modules/Collections/challenges/challenge1/GameController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modules/Collections/challenges/challenge1/poker/PokerGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modules/Collections/challenges/challenge1/poker/PokerHand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modules/Collections/challenges/challenge1/poker/Ranking.java" afterDir="false" />
+    <list default="true" id="267884c9-6c62-41b1-9866-45b9b4f91a7a" name="Changes" comment="Collections Challenge 1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/modules/ExpressionsStatementsMethods/challenges/challenge3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modules/ExpressionsStatementsMethods/demos/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modules/Lambdas/demos/demo3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modules/Lambdas/demos/demo3/Operation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modules/Collections/demos/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/Collections/utils/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modules/Collections/demos/demo2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/Collections/demos/demo2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modules/Collections/demos/demo3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/Collections/demos/demo3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modules/Collections/challenges/challenge1/poker/PokerGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/Collections/challenges/challenge1/poker/PokerGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modules/Collections/challenges/challenge1/poker/PokerHand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/Collections/challenges/challenge1/poker/PokerHand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modules/Lambdas/demos/demo1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/Lambdas/demos/demo1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modules/Lambdas/demos/demo2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/Lambdas/demos/demo2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/mirandaloza/IdeaProjects/Java-Playground/src/main/java/modules/Collections/utils",
+    "last_opened_file_path": "/Users/mirandaloza/IdeaProjects/Java-Playground/src/main/java/modules/Lambdas/demos/demo3",
     "onboarding.tips.debug.path": "/home/popos/IdeaProjects/Java-Playground/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
@@ -66,11 +67,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/modules/Lambdas/demos/demo3" />
+      <recent name="$PROJECT_DIR$/src/main/java/modules/ExpressionsStatementsMethods/demos" />
+      <recent name="$PROJECT_DIR$/src/main/java/modules/ExpressionsStatementsMethods/challenges/challenge3" />
+      <recent name="$PROJECT_DIR$/src/main/java/modules/Collections/challenges/challenge1/poker" />
       <recent name="$PROJECT_DIR$/src/main/java/modules/Collections/utils" />
-      <recent name="$PROJECT_DIR$/src/main/java/modules/Collections/challenges/challenge1" />
-      <recent name="$PROJECT_DIR$/src/main/java/modules/Collections/demos/demo3" />
-      <recent name="$PROJECT_DIR$/src/main/java/modules/Lambdas/demos/demo2" />
-      <recent name="$PROJECT_DIR$/src/main/java/modules/Lambdas/demos" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -114,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706826764044</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Collections Challenge 1">
+      <option name="closed" value="true" />
+      <created>1706827598291</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706827598292</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,7 +140,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First" />
     <MESSAGE value="NestedClasses" />
-    <option name="LAST_COMMIT_MESSAGE" value="NestedClasses" />
+    <MESSAGE value="Collections Challenge 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Collections Challenge 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

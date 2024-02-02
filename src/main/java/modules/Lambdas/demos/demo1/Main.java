@@ -5,6 +5,10 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
+/**
+ * Lambda function usage and discussion on Functional Interface.
+ */
+
 public class Main {
 
     record Person (String firstName, String lastName) {
